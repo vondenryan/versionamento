@@ -1,0 +1,3 @@
+import Calculadora
+
+Calculadora.start()
