@@ -4,7 +4,7 @@ def start():
     val1 = int(input("Digite o valor 1: "))
     val2 = int(input("Digite o valor 2: "))
 
-    operacao = int(input("1. Soma\n2. Subtração\n3. Multiplicação\n4. Divisão\n-> "))
+    operacao = int(input("1. Soma\n2. Subtração\n3. Multiplicação\n4. Divisão\n5. Potenciação\n6. Raiz Quadrada\n-> "))
     result = None
 
     match operacao:
@@ -16,6 +16,10 @@ def start():
             result = Operacoes.multiplicacao(val1, val2)
         case 4:
             result = Operacoes.divisao(val1, val2)
+        case 5:
+            result = Operacoes.potenciacao(val1, val2)
+        case 6:
+            result = Operacoes.raizquadrada(val1)
         case _:
             print("Operação inválida!")
 

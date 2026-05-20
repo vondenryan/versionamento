@@ -9,3 +9,9 @@ def multiplicacao(a, b):
 
 def divisao(a, b):
     return a / b
+
+def potenciacao(a, b):
+    return a **b
+
+def raizquadrada(a):
+    return a**0.5
